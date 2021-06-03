@@ -1,0 +1,146 @@
+
+@media(max-width:900px){
+   
+    .navbar-brand img{margin-left: 5%;}
+    .navbar-toggler{margin:-17% 0 0 72%;}
+    .navbar-nav{margin:5% 0 0 5%; font-size: 110%;}
+    #content-landing h1{font-size:180%; text-shadow: 0 0 0 ;}
+    #content-landing h1 img{width: 7%;}
+    #content-landing h3:nth-child(3){font-size:115%;}
+    
+    #content-about{flex-direction: column;}
+     #content-about>img{
+        width: 150px;
+         height: 170px;
+         margin:auto;
+         margin-top: 10%;
+         clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+     }
+     #card-bio{
+         margin: auto;
+         margin-top: 10%;
+         width: 90%;
+         padding: 0 2% 0 2%;
+    }
+    #card-bio:nth-child(2){font-size: 85%;}
+     .skills{flex-wrap: wrap;}
+     .skills p{font-size: 80%;}
+     
+     .swiper-container{
+      width: 100%;  
+      border-radius: 0px;
+      font-size: 90%;
+     }
+     .swiper-slide >a >img {width:135% ;}
+     .swiper-wrapper{padding-bottom: 8%;}
+     
+     .how-class{flex-direction: column; }
+     #how-title{font-size: 120%; padding-top: 10%;}
+     .how-class>div:nth-child(1){
+         border-radius: 0px;
+         box-shadow:  20px 20px 60px #282829,
+         -20px -20px 60px #3f3f43;
+         padding: 5%;
+         color: cornsilk;
+         text-align: center;
+         font-size: 80%;
+         
+     }
+     .how-class>div:nth-child(2){
+         margin-top: 8%;
+         border-radius: 0px;
+         box-shadow:  20px 20px 60px #282829,
+         -20px -20px 60px #3f3f43;
+         padding: 5%;
+         color: cornsilk;
+         text-align: center;
+         font-size: 80%;
+     }
+     .how-class>div:nth-child(3){
+         margin-top: 8%;
+         border-radius: 0px;
+         box-shadow:  20px 20px 60px #282829,
+         -20px -20px 60px #3f3f43;
+         padding: 5%;
+         color: cornsilk;
+         text-align: center;
+         font-size: 80%;
+         
+    }
+
+     .portofolio h2{
+         margin:12% 0 0 10%; 
+         color: #37373a;
+        }
+     .swiper-portofolio{
+        width: 85%;
+        height: 350px;
+        margin-top: 10%;
+        border-radius: 5px;
+        background: linear-gradient(225deg, #cacaca, #f0f0f0);
+        box-shadow:  -15px 15px 0px #5a5a5a,
+                 15px -15px 0px #ffffff;
+     }
+     .swipper-slide-portofolio a img{
+        width: 100%;
+        height: 150px;
+        }
+    .swipper-slide-portofolio> h4{
+        text-decoration: underline;
+        margin-top: 8%;
+        font-size: 110%;
+        padding-bottom: 10%;
+        }
+        .swipper-title{font-size: 90%;}
+
+      #contact{
+          margin-top: 0%;
+          padding:8% 0 5% 0; 
+          background-position-y:-100px;
+         
+         
+      }
+      
+      .contact-teks> h3{
+        
+        width: 100%;
+        color: cornsilk;
+        font-size: 120%;
+        margin-top: 40%;
+
+    }
+      
+    .contact-box{display: flex; margin: auto;}
+    .contact-box div{
+        margin-top: 10%;
+        padding: 5%;
+        flex-basis: 25%;
+        text-align: center;
+      
+       
+    }
+    .contact-box img{
+        width: 90%;
+    }
+    .contact-box a{
+        color: cornsilk;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 65%;
+    }
+  
+    
+    .line{ 
+        border-bottom: cornsilk solid 2px;
+        width: 80%;
+        margin: auto;
+    }
+    #copyright{
+        text-align: center;
+        color: cornsilk;
+        width: 100%;
+        font-size: 80%;
+    }
+ }
+
+ 

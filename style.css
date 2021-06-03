@@ -67,6 +67,8 @@ header{
     padding: 0 5% 5% 5%;
     display: flex;
     margin: auto;
+    margin-top:0;
+
 }
 #card-bio{
     width: 65%;

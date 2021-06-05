@@ -141,6 +141,13 @@
         width: 100%;
         font-size: 80%;
     }
+    .overlay:target{right: 0; bottom: 0;}
+    .overlay>img{width: 100%;position: absolute; top: 22%; right: 0;}
+    
+    .close{top: 17.5%; left: 72%; font-size: 120%;}
+    .sertif-link{top: 17.5%;left: 5%;font-size: 100%;}
+    
+
  }
 
  

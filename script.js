@@ -30,7 +30,7 @@ let swiper = new Swiper(".mySwiper", {
              
              $('html, body').animate({
                scrollTop: $(hash).offset().top
-             }, 1000, function(){
+             }, 850, function(){
              window.location.hash = hash;
              });
            } 

@@ -3,9 +3,13 @@
 body{background-color: #cec8c8 !important;}
 header{
     position: sticky;
-    top: 0;
+    top: 5px;
+    left: 20px;
     z-index: 10;
     background-color: #37373a; 
+    border-radius: 20px;
+    box-shadow: 4px 6px 1px rgba(145, 144, 144, 0.6);
+    width: 97%;
 }
 .navbar-nav{
     margin-left: 40%;

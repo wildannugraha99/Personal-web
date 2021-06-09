@@ -1,8 +1,8 @@
 
 @media(max-width:900px){
-   
+    header{top: 2%; left: 1.5%;}
     .navbar-brand img{margin-left: 5%;}
-    .navbar-toggler{margin:-17% 0 0 72%;}
+    .navbar-toggler{margin:-17% 0 0 77%;}
     .navbar-nav{margin:5% 0 0 5%; font-size: 110%;}
     #content-landing h1{font-size:180%; text-shadow: 0 0 0 ;}
     #content-landing h1 img{width: 7%;}

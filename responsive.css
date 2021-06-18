@@ -1,56 +1,76 @@
 
 @media(max-width:900px){
-    header{top: 2%; left: 1.5%;}
-    .navbar-brand img{margin-left: 5%;}
-    .navbar-toggler{margin:-17% 0 0 77%;}
-    .navbar-nav{margin:5% 0 0 5%; font-size: 110%;}
-    #content-landing h1{font-size:180%; text-shadow: 0 0 0 ;}
+   .navbar-collapse ul{
+        display: flex;
+       flex-direction: row;
+       font-size: 110%;
+   }
+   .navbar-collapse ul li{
+       margin: auto;
+       margin-top: 5%;
+   }
+   #content-landing{padding-bottom: 40%;}
+   #home{margin-top: 15%;}
+    #content-landing h1{font-size:200%; 
+        text-shadow:3px 2px 0px #7A7A7A ;}
     #content-landing h1 img{width: 7%;}
     #content-landing h3:nth-child(3){font-size:115%;}
     
     #content-about{flex-direction: column;}
      #content-about>img{
-        width: 150px;
+         width: 150px;
          height: 170px;
          margin:auto;
          margin-top: 10%;
          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
      }
+
+     #button-wa button{
+       width: 50%;
+      font-size: 100%;
+    }
+
      #card-bio{
          margin: auto;
          margin-top: 10%;
          width: 90%;
-         padding: 0 2% 0 2%;
+         padding: 0 2% 0 5%;
+         border-left: 3px solid chocolate;
     }
     #card-bio:nth-child(2){font-size: 85%;}
      .skills{flex-wrap: wrap;}
-     .skills p{font-size: 80%;}
+     .skills p{font-size: 80%; ;}
      
+     #title-sertif{
+        border-left: 3px solid chocolate;
+        margin:5% 0 0 10%;
+        padding-left: 3%;
+     }
      .swiper-container{
       width: 100%;  
       border-radius: 0px;
       font-size: 90%;
+      margin-top: 8%;
      }
-     .swiper-slide >a >img {width:135% ;}
-     .swiper-wrapper{padding-bottom: 8%;}
+     .swiper-slide >a >img {width:135% ; }
+     .swiper-wrapper{padding-bottom: 12%;}
      
+     #how-my-code{padding-top: 15%; padding-bottom: 15%;}
      .how-class{flex-direction: column; }
-     #how-title{font-size: 120%; padding-top: 10%;}
+     #how-title{
+        font-size: 130%; 
+        width: 60%;
+        border-left: 3px solid chocolate;
+    }
      .how-class>div:nth-child(1){
-         border-radius: 0px;
-         box-shadow:  20px 20px 60px #282829,
-         -20px -20px 60px #3f3f43;
-         padding: 5%;
+        margin-top: 5%;
+        padding: 5%;
          color: cornsilk;
          text-align: center;
          font-size: 80%;
-         
      }
      .how-class>div:nth-child(2){
          margin-top: 8%;
-         border-radius: 0px;
-         box-shadow:  20px 20px 60px #282829,
-         -20px -20px 60px #3f3f43;
          padding: 5%;
          color: cornsilk;
          text-align: center;
@@ -58,9 +78,6 @@
      }
      .how-class>div:nth-child(3){
          margin-top: 8%;
-         border-radius: 0px;
-         box-shadow:  20px 20px 60px #282829,
-         -20px -20px 60px #3f3f43;
          padding: 5%;
          color: cornsilk;
          text-align: center;
@@ -71,6 +88,7 @@
      .portofolio h2{
          margin:12% 0 0 10%; 
          color: #37373a;
+         border-left: 3px solid chocolate;
         }
      .swiper-portofolio{
         width: 85%;
@@ -80,6 +98,7 @@
         background: linear-gradient(225deg, #cacaca, #f0f0f0);
         box-shadow:  -15px 15px 0px #5a5a5a,
                  15px -15px 0px #ffffff;
+        
      }
      .swipper-slide-portofolio a img{
         width: 100%;
@@ -93,26 +112,27 @@
         }
         .swipper-title{font-size: 90%;}
 
-      #contact{
-          margin-top: 0%;
-          padding:8% 0 5% 0; 
-          background-position-y:-100px;
-         
-         
-      }
-      
+        #contact{
+            background-position-y:0px;
+            padding:8% 0 20% 0; 
+        }
+        .contact-teks{
+            margin-top: 10%;
+        }
       .contact-teks> h3{
-        
-        width: 100%;
         color: cornsilk;
         font-size: 120%;
-        margin-top: 40%;
+        text-align: center;
+        margin-top:30%;
+        width: 210px;
+        border-left: 3px solid chocolate;
+        
 
     }
       
     .contact-box{display: flex; margin: auto;}
     .contact-box div{
-        margin-top: 10%;
+        margin-top: 3%;
         padding: 5%;
         flex-basis: 25%;
         text-align: center;
@@ -129,7 +149,6 @@
         font-size: 65%;
     }
   
-    
     .line{ 
         border-bottom: cornsilk solid 2px;
         width: 80%;

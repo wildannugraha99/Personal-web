@@ -1,102 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{font-family: 'Poppins', sans-serif;}
-body{background-color: #cec8c8 !important;}
-header{
-    position: sticky;
-    top: 5px;
-    left: 20px;
-    z-index: 10;
-    background-color: #37373a; 
-    border-radius: 20px;
-    box-shadow: 4px 6px 1px rgba(145, 144, 144, 0.6);
-    width: 97%;
-}
-.navbar-nav{
-    margin-left: 40%;
-    font-size: 125%;
-    color: #cec8c8;
-    font-size: 140%;
-    
-}
-.navbar-nav a{opacity: 0.5; transition: 0.5s;}
-.navbar-nav a:hover{
-    opacity: 1;
-    color: white;
-}
-
-.navbar-brand img{
-    width: 15%;
-    margin-left: 10%;
-    border-radius: 5px;
-   }
-#content-landing{
-    background-image: url(assets/wave-bg.svg);
+body{background-color: whitesmoke !important;}
+#upper-page{ background-image: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.5)),
+    url(assets/asoggetti-zxcBR3zNc7I-unsplash.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:bottom ;
-    padding: 10% 10% 25% 10%;
+    background-attachment: fixed;
+    }
+
+.navbar-nav{
+    margin: auto;
+    margin-top: 0.5%;
+    font-size: 140%;
+    border-bottom: 1px solid whitesmoke;
+}
+.navbar-nav a{
+    text-shadow: 3px 2px 0px #7A7A7A;
+    transition: 0.5s;}
+.navbar-nav a:hover{transform: scale(1.1);}
+
+#content-landing{
+    padding: 10% 10% 20% 10% ;
 }
 #content-landing h3:nth-child(1){
-    color: #37373a;
+    color: whitesmoke;
 }
 #content-landing h1{
-    color: #37373a;
-    font-size:350%;
+    color: whitesmoke;
+    font-size:400%;
     text-shadow: 3px 2px 0px #7A7A7A;
     transition: 0.3s;
 }
 #content-landing h1:hover{ transform: scale(1.05);}
 #content-landing h1 img{
-    width: 2.5%;
-
-}
+    width: 2.5%}
 #content-landing h3:nth-child(3){
-    color: #37373a;
+    color: whitesmoke;
     font-size:170%;
+    padding-bottom: 5%;
 }
 
 #content-landing >h3>#s-1{
     font-size: 120%;
     color: chocolate;
-    font-weight: bold;
+    font-weight: bolder;
 }
 #content-landing >h3>#s-2{
-    color: cadetblue;
+    color: chocolate;
     font-size: 120%;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+#button-wa button{
+   color: whitesmoke;
+    width: 15%;
+    padding: 0.5% 0;
+    border-radius: 30px;
+    background-color: #25d366;
+    box-shadow: 0px 6px 0 #121418;
+    border: none;
+    font-size: 120%;
+    
+}
+#button-wa button:active{
+    position: relative;
+    top: 6px;
+    box-shadow: none;
+}
+#button-wa img{
+    width: 20%;
 }
 
 #content-about{
-    background-color:#37373a ;
-    color: cornsilk;
-    padding: 0 5% 5% 5%;
+    background-color:#262c38 ;
+    color: 
+    whitesmoke;
+    padding: 10% 5% 5% 5%;
     display: flex;
     margin: auto;
-    margin-top:0;
-
 }
 #card-bio{
     width: 65%;
-    color: cornsilk;
-    padding: 3%;
-    text-align: justify;}
+    color: whitesmoke;
+    padding: 1.2% 3% 3% 1.5%;
+    text-align: justify;
+    border-left: 5px solid chocolate;
+    margin-left: 2%;}
+
 #title-bio{
     font-weight: bold;
     font-size: 140%;
-    color: cornsilk;
+    color: whitesmoke;
 }
 #content-about>img{
-    width: 25%;
-    height: 350px;
+    width: 20%;
+    height: 320px;
     margin-top: 1.5%;
     margin-left: 5%;
-    border-radius: 20px;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 
-.skills{
-    display: flex;
-    
-}
+.skills{display: flex;}
 .skills p{
     padding: 1% 1.5%;
     margin-left: 2%;
@@ -118,41 +123,42 @@ header{
 
 
 #card-sertifikat{
-    background-color: #37373a;
-    padding-bottom: 3%;
+    background-color: #262c38;
+    padding:3% 0 3% 0;
 }
 
 #title-sertif{
     font-weight: bold;
     font-size: 140%;
-    color: cornsilk;
-    margin: 1% 0 0 2%;
+    color: whitesmoke;
+    margin: 3% 0 0 2%;
+    border-left: 5px solid chocolate;
+    padding-left:1%;
+    
 }
 
-
 .mySwiper {
-   width: 85%;
+    width: 85%;
     border-radius: 20px;
-    box-shadow:  20px 20px 60px #282829,
-                 -20px -20px 60px #38383a;
+    box-shadow:  20px 20px 60px #1a1d24,
+                 -20px -20px 60px #262c38;
     }
 .slidder {
     text-align: center;
     font-size: 18px;
-    background: #37373a;
+    background: #262c38;
     display: flex;
     align-items: center;
     padding: 1% 2% 3% 2%;
     transition: 0.3s;
 }
-  
   .slidder:active{ transform: scale(1.1);}
 
   .slidder>a>img {
+    margin-top: 8%;
     display: block;
     width:100% ;
-    background-color: #37373a;
-    }
+   }
 .overlay{
     width: 0;
     height: 0;
@@ -187,11 +193,11 @@ header{
     left: 900px;
     font-size: 130%;
     text-decoration: none;
-    color: cornsilk;
+    color: whitesmoke;
     opacity: 0.5;
     transition: 0.3s;
     }
-.close:hover{color: cornsilk;opacity: 1;}
+.close:hover{color: whitesmoke;opacity: 1;}
 
 .sertif-link{
     position: absolute;
@@ -199,36 +205,35 @@ header{
     left: 370px;
     font-size: 120%;
     text-decoration: none;
-    color: cornsilk;
+    color: whitesmoke;
     opacity: 0.5;
     transition: 0.3s;
 }
-.sertif-link:hover{color: cornsilk;opacity: 1;}
+.sertif-link:hover{color: whitesmoke;opacity: 1;}
 
-#how-my-code{background-color:#37373a ;}
+#how-my-code{background-color:#262c38; padding-top: 6.5%;}
 #how-title{
-    color: cornsilk;
+    margin: auto;
+    color: whitesmoke;
     font-size: 200%;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 1%;
+    border-left: 5px solid chocolate;
+    width: 25%;
+    
 }
-.how-class{display: flex;}
+.how-class{display: flex; padding-top: 3%;}
 .how-class>div{
-    -ms-flex-direction: row;
     border-radius: 15px;
-    box-shadow:  20px 20px 60px #282829,
-    -20px -20px 60px #3f3f43;
-    padding: 3% 3% 0 3%;
-    color: cornsilk;
+    background: linear-gradient(225deg, #222832, #292f3c);
+    box-shadow:  -20px 20px 60px #202530,
+             20px -20px 60px #2c3340;
+    color: whitesmoke;
     margin: 0 2% 0 2%;
     text-align: center;
-    transition: 0.8s;
+    padding: 2%;
 }
 
-.how-class>div:hover{
-    transform: scale(1.08);
-}
 .how-class i{font-size: 350%; padding-bottom: 2%;}
 .how-class h3{
     font-size: 120%;
@@ -239,40 +244,41 @@ header{
 .portofolio{
     background-image: url(assets/wave-2-bg.svg);
     background-repeat: no-repeat;
-    padding: 20% 5% 0 5%;
-    
+    padding: 20% 5% 5% 5%;
+    background-color: whitesmoke;
 }
-.portofolio h2{margin-left: 10%; color: #37373a;}
+.portofolio h2{margin:8% 0 0 15%; 
+                padding-left: 0.5%;
+                color: #262c38;
+                font-weight: bold;
+                border-left: 5px solid chocolate;
+            }
 
 .swiper-portofolio {
-    margin-top: 5%;
+    margin-top: 3%;
     width: 70%;
     height: 525px;
-    border-radius: 13px;
-    background: linear-gradient(225deg, #cacaca, #f0f0f0);
-    box-shadow:  -23px 23px 0px #5a5a5a,
-                 23px -23px 0px #ffffff;
-  }
+    border-radius: 10px;
+    
+}
   .swipper-slide-portofolio{
       margin: auto;
-      background-color:#37373a ;
-  }
+      background-color:#262c38 ;
+    }
  
 .swipper-slide-portofolio> h4{
-    color: cornsilk;
+    color: whitesmoke;
     text-align: center;
     margin-top: 2%;
 }
 .swipper-title{
     text-align: center;
-    color: cornsilk;
+    color: whitesmoke;
     padding: 0 2%;
- 
-}
+ }
   .swipper-slide-portofolio img{
     display: block;
     width: 100%;
-    
 }
 .swiper-portofolio {
     margin-left: auto;
@@ -281,27 +287,26 @@ header{
 
 #contact{
     background-image: url(assets/wave-3-bg.svg);
-    background-position-y:-130px;
-    background-size: cover;
+    background-position-y:0px;
     background-repeat: no-repeat;
-    background-color: #37373a;  
-    padding:8% 0 5% 0; 
-  
+    background-color: #262c38 ;  
+    padding:8% 0 3% 0; 
 }
-
+.contact-teks{
+    margin-top: 15%;
+}
   .contact-teks> h3{
-   margin: auto;
-   margin-top:10%;
-   text-align: center;
-    width: 38%;
-    color: cornsilk;
-   
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    color: whitesmoke;
+    border-left: 5px solid chocolate;
     
   }
-  
-.contact-box{display: flex;margin-left: 15%;}
+ 
+.contact-box{display: flex; margin-left: 15%;}
 .contact-box div{
-   margin-top:5%;
+    margin-top:5%;
     flex-basis: 20%;
     text-align: center;
     transition: 0.5s;
@@ -309,20 +314,20 @@ header{
 
 .contact-box div:hover{transform: scale(1.1);}
 .contact-box img{
-    width: 30%;
+    width: 35%;
 }
 .contact-box a{
-    color: cornsilk;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
     font-size: 90%;
 }
-.contact-box a:hover{color: cornsilk;}
+.contact-box a:hover{color: whitesmoke;}
 
 .line{ 
     margin: auto;
     margin-top: 5%;
-    border-bottom: cornsilk solid 2px;
+    border-bottom: whitesmoke solid 2px;
     width: 90%;
     
     
@@ -331,7 +336,7 @@ header{
    text-align: center;
     margin: auto;
     margin-top: 1%;
-    color: cornsilk;
+    color: whitesmoke;
     width: 50%;
     
 }

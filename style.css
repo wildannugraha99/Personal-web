@@ -257,7 +257,7 @@ body{background-color: whitesmoke !important;}
 .swiper-portofolio {
     margin-top: 3%;
     width: 70%;
-    height: 525px;
+    height: 545px;
     border-radius: 10px;
     
 }
@@ -275,6 +275,7 @@ body{background-color: whitesmoke !important;}
     text-align: center;
     color: whitesmoke;
     padding: 0 2%;
+   
  }
   .swipper-slide-portofolio img{
     display: block;

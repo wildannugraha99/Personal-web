@@ -107,10 +107,12 @@
     .swipper-slide-portofolio> h4{
         text-decoration: underline;
         margin-top: 8%;
-        font-size: 110%;
+        font-size: 98%;
         padding-bottom: 10%;
         }
-        .swipper-title{font-size: 90%;}
+        .swipper-title{
+            font-size: 80%;
+            margin-top: 0%;}
 
         #contact{
             background-position-y:0px;

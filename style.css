@@ -171,7 +171,7 @@ body{background-color: whitesmoke !important;}
     z-index: 99;
     text-align: center;
     padding: 70px;
-    transition: 0.5s;
+    
 }
 
 .overlay:target{
@@ -257,7 +257,7 @@ body{background-color: whitesmoke !important;}
 .swiper-portofolio {
     margin-top: 3%;
     width: 70%;
-    height: 545px;
+    height: 580px;
     border-radius: 10px;
     
 }

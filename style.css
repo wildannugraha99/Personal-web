@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{font-family: 'Poppins', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{font-family: 'Comfortaa', cursive;}
 
 #upper-page{ background-image:url(assets/bg-img.svg);
     background-size:cover;
@@ -19,9 +19,7 @@
 .navbar-nav a:hover{transform: scale(1.1);}
 
 #content-landing{
-    padding: 10% 10% 20% 12% ;
-    
-   
+    padding: 10% 6% 20% 12% ;
 }
 #content-landing h3:nth-child(1){
     color: whitesmoke;
@@ -76,29 +74,30 @@
 #content-about{
     background-color:#262c38 ;
     color:whitesmoke;
-    padding: 10% 5% 5% 5%;
     display: flex;
-    margin: auto;
+    flex-direction: row;
+   padding: 10% 0 3% 0;
+    
 }
 #card-bio{
-    width: 65%;
+    margin-left: -10%;
     color: whitesmoke;
     padding: 1.2% 3% 0 1.5%;
     text-align: justify;
     border-left: 5px solid chocolate;
-    margin-left: 2%;}
-
+    width: 100%;
+    height: 85%;
+}
 #title-bio{
     font-weight: bold;
     font-size: 140%;
-    color: whitesmoke;
+    color: whitesmoke; 
 }
-#content-about>img{
-    width: 20%;
-    height: 320px;
-    margin-top: 1.5%;
-    margin-left: 5%;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+#content-about>div>img{
+    width:130%;
+   margin-left: -45%;
+   margin-top: -22%;
+   
 }
 
 .skills{display: flex;}

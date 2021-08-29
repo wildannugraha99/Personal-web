@@ -2,7 +2,7 @@
 *{font-family: 'Comfortaa', cursive;}
 
 #upper-page{ 
-    background-image: url(/assets/bg-atas.svg);
+    background-image: url(/assets/bg-atas.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center ;
@@ -177,7 +177,7 @@
     
   }
 
-#how-my-code{background-color:#262c38; padding-top: 4%;}
+#how-my-code{background-color:#262c38; padding: 4% 0 10% 0;}
 #how-title{
     margin: auto;
     color: whitesmoke;
@@ -214,10 +214,9 @@
 }
 
 .portofolio{
-    background-image: url(/assets/wave-2-bg.svg);
-    background-repeat: no-repeat;
-    padding: 20% 5% 5% 5%;
-    background-color: whitesmoke;
+   
+    padding: 0% 5% 5% 5%;
+    
 }
 .portofolio h2{
     font-size: 200%;
@@ -285,11 +284,9 @@
 
 
 #contact{
-    background-image: url(/assets/wave-3-bg.svg);
-    background-position-y:0px;
-    background-repeat: no-repeat;
-    background-color: #262c38 ;  
-    padding:8% 0 3% 0; 
+    background-color:#262c38 ;
+    padding:1% 0 3% 0; 
+   
 }
 .contact-teks{
     margin-top: 15%;

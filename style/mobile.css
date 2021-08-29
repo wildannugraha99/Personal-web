@@ -16,6 +16,9 @@
     #content-landing h3:nth-child(3){font-size:115%;}
     
     #content-about{flex-direction: column;}
+    #bio{
+        font-size: 90%;
+    }
      #content-about div img{
         width: 140%;
         margin: auto;
@@ -45,76 +48,64 @@
      
      #title-sertif{
         border-left: 3px solid chocolate;
-        margin:5% 0 0 10%;
+        margin:5% 0 5% 5%;
         padding-left: 3%;
+        font-size: 130%;
      }
-     .swiper-container{
-      width: 100%;  
-      border-radius: 0px;
-      font-size: 90%;
-      margin-top: 8%;
+     
+     .mySwiper {
+        width: 100%;
+    }
+     
+
+     .swiper-slide-sertif img{
+         width: 110%;
+         border-radius: 5px;
      }
-     .slidder >a >img {width:135%;border: 2px solid chocolate;
-        border-radius: 10px;}
-     .swiper-wrapper{padding-bottom: 12%;}
+   
      
      #how-my-code{padding-top: 15%; padding-bottom: 15%;}
+     
      .how-class{flex-direction: column; }
+     
      #how-title{
-        font-size: 130%; 
+        font-size: 120%; 
         width: 60%;
         border-left: 3px solid chocolate;
     }
-     .how-class>div:nth-child(1){
+
+    .how-class p{
+        font-size: 90%;
+    }
+    
+    .how-class>div:nth-child(1), .how-class>div:nth-child(2), .how-class>div:nth-child(3){
         margin-top: 5%;
         padding: 5%;
-         color: cornsilk;
          text-align: center;
          font-size: 80%;
      }
-     .how-class>div:nth-child(2){
-         margin-top: 8%;
-         padding: 5%;
-         color: cornsilk;
-         text-align: center;
-         font-size: 80%;
-     }
-     .how-class>div:nth-child(3){
-         margin-top: 8%;
-         padding: 5%;
-         color: cornsilk;
-         text-align: center;
-         font-size: 80%;
-         
-    }
+   
 
      .portofolio h2{
-         margin:12% 0 0 10%; 
+        font-size: 130%;
+         margin:12% 0 3% 1.5%; 
          color: #37373a;
          border-left: 3px solid chocolate;
         }
-     .swiper-portofolio{
-        width: 80%;
-        height: 350px;
-        margin-top: 10%;
-        border-radius: 5px;
-       }
-    .swipper-slide-portofolio{
-        padding: 2%;
-    }
-     .swipper-slide-portofolio a img{
-        width: 100%;
-        height: 150px;
+        .swiper-slide-project .card p{
+              margin-top: 2%;
+              font-size: 50%;
+            }
+        
+        .swiper-slide-project .card a{
+            font-size: 60%;
+            width: 100%;
+            box-shadow: 1px 3px 0px rgb(116, 115, 111);
         }
-    .swipper-slide-portofolio> h4{
-        text-decoration: underline;
-        margin-top: 8%;
-        font-size: 98%;
-        padding-bottom: 3%;
-        }
-        .swipper-title{
-            font-size: 80%;
-        }
+
+
+
+
 
         #contact{
             background-position-y:0px;
@@ -153,7 +144,7 @@
   
     .line{ 
         border-bottom: chocolate solid 2px;
-        width: 80%;
+        width: 90%;
         margin: auto;
         margin-top: 0%;
     }
@@ -163,11 +154,7 @@
         width: 100%;
         font-size: 80%;
     }
-    .overlay:target{right: 0; bottom: 0;}
-    .overlay>img{width: 100%;position: absolute; top: 22%; right: 0;}
     
-    .close{top: 17.5%; left: 72%; font-size: 120%;}
-    .sertif-link{top: 17.5%;left: 5%;font-size: 100%;}
     
 
  }

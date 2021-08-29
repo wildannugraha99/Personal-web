@@ -156,6 +156,10 @@
     width: 95%;
 }
 
+.swiper-wrapper-sertif{
+    margin-bottom: 2%;
+}
+
 .swiper-slide-sertif{
     text-align: center;
     font-size: 18px;
@@ -236,7 +240,7 @@
 
 .swiper-wraper-project{
     padding: 1%;
-    
+    margin-bottom: 2%;
 }
 
   .swiper-slide-project {

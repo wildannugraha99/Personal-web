@@ -56,7 +56,9 @@
      .mySwiper {
         width: 100%;
     }
-     
+    .swiper-wrapper-sertif{
+        margin-bottom: 11%;
+    }
 
      .swiper-slide-sertif img{
          width: 110%;
@@ -92,6 +94,11 @@
          color: #37373a;
          border-left: 3px solid chocolate;
         }
+
+        .swiper-wraper-project{
+            margin-bottom: 15%;
+        }
+        
         .swiper-slide-project .card p{
               margin-top: 2%;
               font-size: 50%;

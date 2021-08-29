@@ -2,7 +2,7 @@
 *{font-family: 'Comfortaa', cursive;}
 
 #upper-page{ 
-    background-image: url(/assets/bg-atas.png);
+    background-image: url(../assets/bg-atas.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center ;

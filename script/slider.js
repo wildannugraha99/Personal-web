@@ -1,5 +1,5 @@
 const swiperSertif = new Swiper(".swiper-sertif", {
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 15,
   slidesPerGroup: 3,
   loop: false,
@@ -12,11 +12,12 @@ const swiperSertif = new Swiper(".swiper-sertif", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+ 
 });
 
 
 const swiperProject = new Swiper(".swiper-project", {
-  slidesPerView: 2,
+  slidesPerView: 1.5,
   spaceBetween: 30,
   navigation: {
     nextEl: ".swiper-button-next",

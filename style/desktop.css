@@ -8,9 +8,12 @@
     background-position:center ;
     }
 
+.navbar-brand img{
+    width: 5vw;
+}
 .navbar-nav{
     margin: auto;
-    margin-top: 0.5%;
+    margin-top: 0%;
     font-size: 150%;
     border-bottom: 1px solid whitesmoke;
 }
@@ -91,11 +94,11 @@
 }
 
 #bio{
-    font-size: 120%;
+    font-size: 110%;
 }
 #title-bio{
     font-weight: bold;
-    font-size: 200%;
+    font-size: 180%;
     color: whitesmoke; 
 }
 #content-about>div>img{
@@ -208,18 +211,18 @@
 
 .how-class i{font-size: 350%; padding-bottom: 2%;}
 .how-class h3{
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .how-class p{
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .portofolio{
    
-    padding: 0% 5% 5% 5%;
+    padding: 0% 0% 5% 0%;
     
 }
 .portofolio h2{
@@ -247,12 +250,10 @@
     display: flex;
     align-items: center;
    border-radius: 10px;
-    transition: 1s;
-  }
+   cursor: pointer;
+}
 
-  .swiper-slide-project:hover{
-     transform: scale(1.04);
-  }
+ 
   
   .swiper-slide-project .card{
     border: 5px solid #1b212c;
@@ -263,7 +264,7 @@
   }
   .swiper-slide-project .card p{
       margin-top: 2%;
-      font-size: 120%;
+      font-size: 100%;
     }
 
 .swiper-slide-project .card a{
@@ -282,10 +283,12 @@
 }
     .swiper-slide-project .card a:active{
       top: 7px;
-      
-        box-shadow: none;
+     box-shadow: none;
     }
 
+    .swiper-slide-project .card img{
+        width: 100%;
+    }
 
 #contact{
     background-color:#262c38 ;

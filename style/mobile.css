@@ -71,7 +71,7 @@
      .how-class{flex-direction: column; }
      
      #how-title{
-        font-size: 120%; 
+        font-size: 110%; 
         width: 60%;
         border-left: 3px solid chocolate;
     }
@@ -110,7 +110,9 @@
             box-shadow: 1px 3px 0px rgb(116, 115, 111);
         }
 
-
+        .swiper-slide-project .card img{
+            width: 100%;
+        }
 
 
 

@@ -104,10 +104,16 @@
               font-size: 50%;
             }
         
+        .btn-project{
+          flex-direction: column;
+          font-size: 90%;
+        }
+
         .swiper-slide-project .card a{
             font-size: 60%;
             width: 100%;
             box-shadow: 1px 3px 0px rgb(116, 115, 111);
+            margin: 5% 0 ;
         }
 
         .swiper-slide-project .card img{

@@ -253,24 +253,31 @@
    cursor: pointer;
 }
 
- 
+
   
   .swiper-slide-project .card{
     border: 5px solid #1b212c;
     background-color: #262c38;
     color: whitesmoke;
     padding: 2%;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .swiper-slide-project .card p{
       margin-top: 2%;
       font-size: 100%;
     }
 
+    .btn-project{
+        padding: 3%;
+        display: flex;
+        flex-direction: row;
+        font-size: 90%;
+    }
+
 .swiper-slide-project .card a{
         text-decoration: none;
         border: 2px solid whitesmoke;
-        width: 25%;
+        width: 30%;
         text-align: center;
         padding: 1%;
         background-color: whitesmoke;
@@ -280,6 +287,7 @@
         border-radius: 20px;
         position: relative;
         top: 0;
+        margin: 0 0 0 1% ;
 }
     .swiper-slide-project .card a:active{
       top: 7px;
@@ -289,6 +297,8 @@
     .swiper-slide-project .card img{
         width: 100%;
     }
+
+
 
 #contact{
     background-color:#262c38 ;
